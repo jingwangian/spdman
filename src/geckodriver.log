@@ -1,0 +1,70 @@
+1530259833061	geckodriver	INFO	geckodriver 0.21.0
+1530259833073	geckodriver	INFO	Listening on 127.0.0.1:57571
+1530259834084	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.w6iMWsiCDLld"
+1530259837627	Marionette	INFO	Listening on port 34725
+1530259837716	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530259964533	geckodriver	INFO	geckodriver 0.21.0
+1530259964538	geckodriver	INFO	Listening on 127.0.0.1:52203
+1530259964567	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KawQxZ8ZhGOO"
+1530259967091	Marionette	INFO	Listening on port 37865
+1530259967101	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530260803816	geckodriver	INFO	geckodriver 0.21.0
+1530260803833	geckodriver	INFO	Listening on 127.0.0.1:52771
+1530260803873	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6CBNJM5JA3pq"
+1530260809200	Marionette	INFO	Listening on port 45969
+1530260809265	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530261449941	geckodriver	INFO	geckodriver 0.21.0
+1530261449946	geckodriver	INFO	Listening on 127.0.0.1:60617
+1530261450963	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ABOrNf3ccs8s"
+1530261453483	Marionette	INFO	Listening on port 33231
+1530261453544	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530261531682	geckodriver	INFO	geckodriver 0.21.0
+1530261531688	geckodriver	INFO	Listening on 127.0.0.1:58575
+1530261532689	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.j6TsB3sxNzy1"
+1530261535146	Marionette	INFO	Listening on port 38531
+1530261535212	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530261535389	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530261552706	geckodriver	INFO	geckodriver 0.21.0
+1530261552711	geckodriver	INFO	Listening on 127.0.0.1:40891
+1530261553719	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zg0rJKUR5jGv"
+1530261555974	Marionette	INFO	Listening on port 44839
+1530261556046	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530261654401	geckodriver	INFO	geckodriver 0.21.0
+1530261654406	geckodriver	INFO	Listening on 127.0.0.1:35003
+1530261655414	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BT9OZ0ASyjoo"
+1530261657791	Marionette	INFO	Listening on port 43437
+1530261657859	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9226, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-d34xn2/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1530261765045	geckodriver	INFO	geckodriver 0.21.0
+1530261765050	geckodriver	INFO	Listening on 127.0.0.1:45589
+1530261766063	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rYVk6rq54RDZ"
+1530261768304	Marionette	INFO	Listening on port 38239
+1530261768397	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
